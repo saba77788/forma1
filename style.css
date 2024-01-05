@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  width: 760px;
+  height: 893px;
+  background: #283646;
+}
+
+h1 {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 63.984px;
+  margin-top: 88px;
+  margin-left: 152px;
+  margin-bottom: 40px;
+}
+
+.label1 {
+  margin-left: 152px;
+  padding-bottom: 8px;
+}
+
+.label1 > label {
+  color: #cfd3d7;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  margin-right: 157px;
+}
+
+.input1 {
+  margin-left: 152px;
+  padding-bottom: 24px;
+}
+
+.input1 > input {
+  width: 220px;
+  height: 56px;
+  flex-shrink: 0;
+  border: 1px solid #387ae7;
+  background: #4f5a68;
+  margin-right: 16px;
+  padding-left: 16px;
+}
+
+.input1 > ::placeholder {
+  color: #77808b;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.email {
+  margin-left: 152px;
+  padding-bottom: 8px;
+}
+
+.email > label {
+  color: #cfd3d7;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.Last {
+  margin-left: 152px;
+}
+
+.Last > ::placeholder {
+  color: #77808b;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.Last > input {
+  width: 456px;
+  height: 56px;
+  flex-shrink: 0;
+  border: 1px solid #387ae7;
+  background: #4f5a68;
+  padding-left: 16px;
+}
+
+button {
+  padding: 16px 48px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #3a86ff;
+  margin-left: 152px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  margin-top: 40px;
+}
+
+.evrazia > div > input {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #3a86ff;
+}
